@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F0F2F5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.title h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #1877F2;
+    font-size: 60px;
+    font-weight: 750;
+}
+
+.signup-form {
+    width: 425px;
+    padding: 15px;
+    background: #fff;
+    position: absolute;
+    left: 37%;
+    top: 15%;
+
+
+}
+
+.signup-form h3 {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.signup-form .title {
+    font-size: 15px;
+    line-height: 24px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.signup-form hr {
+    opacity: 0.5;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.signup-form .name {
+    display: flex;
+
+}
+
+.signup-form .name .name-txt {
+    width: 190px;
+    margin-top: 15px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.txt {
+    display: block;
+    justify-content: center;
+    width: 390px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 15px;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.signup-form .dogum-gun {
+    display: block;
+    font-size: 13px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.signup-form .dogumgun-input{
+    width: 30%;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.signup-form .cinsiyet label{
+    display: block;
+    font-size: 13px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.signup-form .cinsiyet button{
+    width: 30%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.signup-form p {
+    font-size: 11px;
+    text-align: justify;
+    line-height: 15px;
+    margin-top: 10px;
+}
+.signup-form a {
+    text-decoration: none;
+    color: #385898;
+}
+.signup-form .register {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    background: #119F16;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.signup-form .register-a {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   
+}
